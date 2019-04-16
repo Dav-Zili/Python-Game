@@ -19,7 +19,7 @@
                 "message": "Non vedi nessun lucchetto in cui inserire una chiave"
         },
             "F": {
-                "message": "Stando attento a non dar fuoco a tutta la casa riesci a sciogliere ",
+                "message": "Stando attento a non dar fuoco a tutta la casa riesci a sciogliere la catena",
                 "transform": "I"
      
             }
@@ -75,7 +75,7 @@
     "4": {
         "name": "botola",
         "description": "Una botola dal dubbio aspetto e sicurezza",
-        "color": "blue",
+        "color": "magenta",
         "interactions": {
             "no-item": {
                 "message": "provi ad aprirla ma senza successo"
@@ -129,7 +129,7 @@
 
     },
     "E":{
-        "name":"energy drink",
+        "name":"Monster Energy",
         "description" : "energy drink contenente un concentrato di vitamine e proteine",
         "color":"red",
         "interactions":{
@@ -141,8 +141,8 @@
         }
     },
     "Z":{
-        "name":"z-sword",
-        "description":"una spada leggendaria che si crede sia stata usata da Carlo Magno in persona..",
+        "name":"Durendala",
+        "description":"una spada leggendaria che si crede sia stata usata da Orlando in persona..",
         "color":"yellow",
         "interactions":{
             "no-item":{
@@ -201,7 +201,7 @@
     },
     "!": {
         "name": "cassaforte",
-        "color": "cyan",
+        "color": "yellow",
         "description": "Una vecchia cassaforte arrugginita, potrebbe contenere qualcosa...",
         "interactions":  {
             "no-item": {
@@ -286,8 +286,8 @@
             }
         }
     },
-    "A": {
-        "name": "armadio",
+    "Y": {
+        "name": "armadio(abbiamo finito le lettere sensate)",
         "description": "un'armadio che sembra non essere aperto da anni",
         "color": "red",
         "interactions": {
