@@ -298,6 +298,9 @@ class Room:
 
 
 g = Game()
-
+print("Dopo una notte di follia in balia dell'alcool ti ritrovi nella vecchia villa in cima alla collina")
+print("Non hai la minima idea di come tu sia arrivato lì ma devi trovare al più presto un modo per uscire...")
+print("...C'è qualcosa di inquietante in questo edificio...")
+input("PREMI INVIO PER CONTINUARE")
 while True:
     g.update()

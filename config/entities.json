@@ -73,17 +73,14 @@
         }
     },
     "4": {
-        "name": "botola",
-        "description": "Una botola dal dubbio aspetto e sicurezza",
-        "color": "magenta",
+        "name": "apertura",
+        "description": "una piccola apertura",
+        "color": "blue",
         "interactions": {
             "no-item": {
-                "message": "provi ad aprirla ma senza successo"
-        },
-            "K": {
-                "message": "si apre e ti conduce nei meandri oscuri della villa",
+                "message": "si apre",
                 "move_to_room": 4
-            }
+        }
         }
     }, 
     "5": {
@@ -103,10 +100,10 @@
         "color" : "blue",
         "interactions" : {
             "no-item" : {
-                "message":" ti provi ad avvicinare ma una vampata di calore ti fa cambiare idea"
+                "message":"Ti riporta all'inferno",
+                "move_to_room":6
             }
-
-        }
+            }
     },
     "H":{
         "name" :"Lucifero",
@@ -258,11 +255,6 @@
         }
         }
             },
-    "R": {
-        "name": "recinto",
-        "description": "tutto il giardino e' recintato, da qua e' impossibile scappare...",
-        "color": "white"
-            },
      "*": {
         "name": "password",
         "description": "un foglietto accartocciato con quattro numeri",
@@ -305,7 +297,8 @@
         "interactions": {
             "P": {
         "message": "Sparando al fuoco compare un portale che ti trasporta in un'altra dimensione nella quale vivrai in pace e armonia con gli animali" ,
-        "move_to_room":6
+        "move_to_room":6,
+        "transform":"6"
         }
     }
     },
@@ -370,6 +363,24 @@
                 "message": "Sperando di scappare dal giardino rompi la finestra e ti butti senza calcolare la sua altezza e ti sfracelli al suolo",
         "game_over":"true"
             }
+        }
+},
+    "B": {
+        "name": "Botola",
+        "description": "Una vecchia botola di legno ammuffito, chissà dove conduce...",
+        "color": "red",
+        "interactions": {
+            "no-item": { 
+                "message": "Servirebbe qualcosa per aprirla..."
+
+            },
+            "K": { 
+                "message": "La botola si apre accompagnata da un lungo stridio",
+                "remove_from_inventory":true,
+                "transform":"4",
+                "move_to_room": 4
+                }
+
         }
 },
     "N": {
